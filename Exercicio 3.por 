@@ -1,0 +1,27 @@
+programa {
+
+inclua biblioteca Matematica --> mat 
+  funcao inicio() {
+    real _SalarioBruto,_AdicionalNoturno,_HorasExtras,_Descontos,_SalarioLiquido
+
+    escreva("\n Digite o salario bruto: ")
+    leia(_SalarioBruto)
+
+    escreva("\n Digite o adicional noturno: ")
+    leia(_AdicionalNoturno)
+
+    escreva("\n Digite as horas extras: ")
+    leia(_HorasExtras)
+
+    escreva("\n Digite os descontos: ")
+    leia(_Descontos)
+
+    _SalarioLiquido = _SalarioBruto + _AdicionalNoturno + (_HorasExtras * 5) - _Descontos 
+
+    escreva("Salario liquido e: ", _SalarioLiquido)
+
+  }
+}
+    
+  }
+}
