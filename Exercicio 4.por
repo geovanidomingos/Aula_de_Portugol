@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    real _Numero1,_Numero2,_Numero3,_Numero4,_Diferenca
+    inteiro _Numero1,_Numero2,_Numero3,_Numero4,_Diferenca
 
     escreva("\n Digite o numero 1 : ")
     leia(_Numero1)
