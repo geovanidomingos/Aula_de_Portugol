@@ -21,8 +21,8 @@ programa {
 		escreva("\nVetor de Numeros Inteiros Ordenados: \n")
 		
 		para(inteiro _indice_=0; _indice_ < tamanho; _indice_ ++){
-			escreva(_indice_ + 1, "º Numero: ", vetorInteiros[_indice_], "\n")
-      se 
+			escreva(_indice_ + 1, "Âº Numero: ", vetorInteiros[_indice_], "\n")
+      
 		}
   }
 }
@@ -35,7 +35,7 @@ programa {
 		
 		para(n = 0; n < 3; n++){
 		    para(p = 0; p < 3; p++){
-		        escreva("Digite um valor para a posição: [",n,"][",p,"]: ")
+		        escreva("Digite um valor para a posiÃ§Ã£o: [",n,"][",p,"]: ")
 		        leia(matriz[n][p])
 		        se(n==p){
 		            diagP[n] = matriz[n][p]
@@ -52,14 +52,14 @@ programa {
 		    somaP = somaP + diagP[n]
 		}
 		
-		escreva("\n Os elementos da diagonal secundária:  ")
+		escreva("\n Os elementos da diagonal secundÃ¡ria:  ")
 		para(n = 0; n < 3; n++){
 		    escreva(diagS[n]," ")
 		    somaS = somaS + diagS[n]
 		}
 		
 		escreva("\nSoma dos elementos da diagonal principal: ", somaP)
-		escreva("\nSoma dos elementos da diagonal secundária: ", somaS)
+		escreva("\nSoma dos elementos da diagonal secundÃ¡ria: ", somaS)
 		
 	}
 }
